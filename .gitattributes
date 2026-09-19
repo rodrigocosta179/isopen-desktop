@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# Do not edit manually
+**/*.py linguist-detectable
+
+*.py linguist-detectable
+dist/* linguist-vendored
+
+Cargo.lock linguist-generated
+*.html linguist-vendored
